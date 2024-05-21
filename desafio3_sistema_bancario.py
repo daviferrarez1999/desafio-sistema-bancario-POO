@@ -41,7 +41,7 @@ class Conta:
             print("Operação inválida! Você excedeu seu saldo.")
         elif valor > 0:
             self._saldo -= valor
-            print("Saque: R${valor:.2f}\n") 
+            print(f"Saque: R${valor:.2f}\n") 
             return True
         else:
             print("Operação inválida! O valor informado está inválido.")
